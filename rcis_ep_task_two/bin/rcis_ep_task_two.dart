@@ -18,6 +18,7 @@ void main() {
 
 //=====================================================Пятое=Задание============================================================
 void taskFive(){
+//Map <int> : <List<int>>
   var massive = {
     1  : List.generate(30, (_) => Random().nextInt(20) - 10),
     2  : List.generate(30, (_) => Random().nextInt(20) - 10),
